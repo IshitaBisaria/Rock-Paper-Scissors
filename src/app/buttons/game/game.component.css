@@ -1,0 +1,9 @@
+.text {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* color: #6553e9; */
+  font-weight: 600;
+}

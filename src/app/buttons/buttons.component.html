@@ -1,0 +1,51 @@
+<!-- <p>buttons works!</p> -->
+<div class="btnComponent">
+  <div class="btns choice">
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="registerUserChoice(1)"
+      [disabled]="gamePlayed"
+    >
+      <!-- Rock -->
+      <img src="/assets/images/rock.png" [ngStyle]="{ width: '40px' }" alt="" />
+    </button>
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="registerUserChoice(2)"
+      [disabled]="gamePlayed"
+    >
+      <!-- Paper -->
+      <img
+        src="/assets/images/paper.png"
+        [ngStyle]="{ width: '40px' }"
+        alt=""
+      />
+    </button>
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="registerUserChoice(3)"
+      [disabled]="gamePlayed"
+    >
+      <!-- Scissors -->
+      <img
+        src="/assets/images/scissors.png"
+        [ngStyle]="{ width: '40px' }"
+        alt=""
+      />
+    </button>
+  </div>
+  <div class="btns play">
+    <button
+      mat-raised-button
+      color="accent"
+      (click)="playAgain()"
+      [disabled]="!gamePlayed"
+    >
+      Play Again
+    </button>
+  </div>
+  <app-game [winner]="winner" [color]="color"></app-game>
+</div>

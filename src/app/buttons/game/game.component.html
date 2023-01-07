@@ -1,0 +1,7 @@
+<div class="text">
+  <p [style.color]="color" *ngIf="winner === ''">
+    Choose any from Rock, Paper, Scissors
+  </p>
+  <!-- <ng-template #text>{{ textToBeDisplayed }}</ng-template> -->
+  <p *ngIf="winner !== ''" [style.color]="color">{{ textToBeDisplayed }}</p>
+</div>

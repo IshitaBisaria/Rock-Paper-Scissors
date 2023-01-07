@@ -1,0 +1,22 @@
+.btnComponent {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: normal;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.choice {
+  margin-top: 20px;
+}
+
+.play {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

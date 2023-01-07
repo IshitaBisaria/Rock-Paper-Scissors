@@ -1,0 +1,14 @@
+.main {
+  width: 1250px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 25px;
+  color: #2e4970;
+  font-weight: 700;
+}
